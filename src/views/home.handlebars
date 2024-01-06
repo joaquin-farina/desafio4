@@ -1,0 +1,12 @@
+<h1>Listado de Productos existentes en catálogo</h1>
+
+{{#each productos}}
+    <li>
+        Nombre: <b>{{this.title}}</b>
+        <p>Precio: <b>$ {{this.price}}</b></p>
+    </li>
+{{/each}}
+
+
+<script src="/socket.io/socket.io.js"></script>
+<script src="/js/index.js"></script>

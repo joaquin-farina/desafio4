@@ -106,7 +106,7 @@ class CartsManager {
             console.log(`Datos cargados desde el archivo: "${this.path}"`);
         } catch (error) {
             console.error('Error al cargar datos desde el archivo:', `El archivo "${this.path}" no está bien definido o no existe`);
-           
+            
             this.carts = [];
         }
     }
@@ -114,5 +114,7 @@ class CartsManager {
 }
 
 const cartsService = new CartsManager()
+
+
 
 export default cartsService

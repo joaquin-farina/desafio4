@@ -54,7 +54,7 @@ cartsRouter.post('/:cid/product/:pid', async (req, res) => {
                 status: "succes",
                 message: 'Producto agregado al carrito con éxito',
                 payload: await cartId,
-                //carts
+                
             })
         
     } catch (error) {
